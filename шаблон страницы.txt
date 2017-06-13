@@ -1,0 +1,119 @@
+<?php	
+	require "libs/dborders.php";
+?>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Защита Сервис</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<a href="#"> 
+				<img id="logo1" src="img/logo.png" width="200" height="100">
+			</a>
+		</div>
+		<nav class="main_nav">
+			<ul>
+				<li>
+					<a href="/">КЛИЕНТАМ</a>
+				</li>
+				<li>
+					<a href="/">ПАРТНЕРЫ</a>
+				</li>
+				<li>
+					<a href="/">ЗАКАЗЫ</a>
+				</li>
+				<li>
+					<a href="employees.php">Сотрудники</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="slider">
+			<div class="slider_title">
+				Лозунг компании
+				<p>Краткое описание </p>
+				<a href="#" class="btn"> УЗНАТЬ БОЛЬШЕ </a>
+			</div>
+		</div>
+		<!--Кнопки Входа, Авторизации -->
+	
+		<div class="login"> 
+	<?php
+		if (isset($_SESSION['logged_user'])) 
+		{
+			echo 'Вы авторизованы как '.$_SESSION['logged_user']->login ;
+			echo '<br><a href="logout.php"> Выйти </a>';
+		}
+		else
+		{
+			echo 'Вы не авторизованы <br>';
+			echo '<a href="login.php">Авторизация </a><br>';
+			echo '<a href="signup.php">Регистрация </a>';
+		}
+			
+	?>
+	
+		</div>
+
+		<footer>
+		</footer>
+	</header>
+
+<main>
+	
+	
+<?php 
+	/*
+	if ($_SESSION['logged_user']->status >= 3)
+		echo "<a class='orders_admin' href='orders_admin.php'> Админ панель заказов </a>";
+		*/
+?>
+	
+
+</main>
+
+<footer>
+	<ul>
+		<li>
+			Организационно-правовая форма: Общества с ограниченной ответственностью
+		</li>
+		<li>
+			Форма собственности: Частная собственность
+		</li>
+		<li>
+			ИНН:	4711006110
+		</li>
+		<li>
+			ОГРН:	1044701613538
+		</li>
+		<li>
+			КПП:	471101001
+		</li>
+		<li>
+			ОКПО:	23389420
+		</li>
+		<li>
+			ОКАТО: 41442000000 
+		</li>
+		<li>
+			Телефон: (81365) 2-59-59 
+		</li>
+		<li>
+			Дата регистрации: 16 января 2004 года
+		</li>
+		<li>
+			Регистрирующий орган: Инспекция Министерства Российской Федерации по налогам и сборам по Подпорожскому району Ленинградской области.
+		</li>
+		<li>
+			E-mail: zachita-servisao@yandex.ru
+		</li>
+	</ul>
+
+</footer>
+</body>
+</html>

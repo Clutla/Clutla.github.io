@@ -1,0 +1,263 @@
+.btn {
+	display: inline-block;
+	height: 50px;
+	width: 240px;
+
+	text-align: center;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none; 
+	border-radius: 2px;
+	background-color: #fb565a;
+}
+
+footer {
+	background-color: #C2BFCC;
+	padding: 50px;
+}
+header {
+	padding-top: 50px;
+	background-color: #eeeeee;
+
+}
+
+.main {
+	background-color: #B3AFFF;
+}
+
+.logo {
+	position: relative;
+	display: block;
+	
+}
+#logo1
+{
+	width: 270px;
+	height: 145px;
+}
+
+.logo:hover img {
+	opacity: 0.9;
+}
+
+.logo:active img {
+	opacity: 0.3;
+}
+
+.main_nav {
+	top: -50px;
+	text-align: center;
+}
+
+.main_nav ul {
+
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+
+	list-style: none;
+}
+
+.main_nav li{
+	display: inline-block;
+	font-size: 16px;
+	
+}
+
+.main_nav a {
+	position: relative;
+	display: block;
+	margin: 24px;
+	margin-bottom: 0;
+	line-height: 30px;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none; 
+}
+
+.main_nav a:hover {
+	color: #fb565a;
+}
+
+.main_nav a:active {
+	color: #000;
+	opacity: 0.3;
+}
+
+.login {
+	position: relative;
+	left: 83%;
+	top: -260px;
+}
+
+
+.addEmployees {
+	display: inline-block;
+	height: 50px;
+	width: 240px;
+
+	text-align: center;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none; 
+	border-radius: 2px;
+	background-color: #fb565a;
+}
+
+.employees {
+	position: right;
+	
+}
+
+.footer-left, 
+.footer-center, 
+.footer-right{
+	display: inline-block;
+	vertical-align: top;
+	padding: 1%;
+}
+
+.footer-left{
+	text-decoration: none;
+	width: 40%;
+	text-align: center;
+	position: relative;
+}
+
+.footer-center{
+	margin-left: 0;
+	text-align: center;
+	position: relative;
+	left: 5%;
+}
+.footer-right{
+	width: 18%;
+	text-align: center;
+	position: relative;
+	left: 20%;
+}
+
+.footer-links{
+	color:  #000000;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.partner{
+	position: relative;
+	left: 2%;
+}
+.country{
+	position: relative;
+	left: 15%;
+	top: -39px;
+}
+.city{
+	position: relative;
+	left: 28%;
+	top: -78px;
+}
+.sayt{
+	position: relative;
+	left: 41%;
+	top: -117px;
+}
+.phone{
+	position: relative;
+	left: 54%;
+	top: -156px;
+}
+.mail{
+	position: relative;
+	left: 67%;
+	top: -195px;
+}
+.specialization{
+	position: relative;
+	left: 80%;
+	top: -234px;
+}
+
+
+.partner1{
+	position: relative;
+	left: 2%;
+}
+.country1{
+	position: relative;
+	left: 15%;
+	top: -39px;
+}
+.city1{
+	position: relative;
+	left: 28%;
+	top: -78px;
+}
+.sayt1{
+	position: relative;
+	left: 41%;
+	top: -117px;
+}
+.phone1{
+	position: relative;
+	left: 54%;
+	top: -156px;
+}
+.mail1{
+	position: relative;
+	left: 67%;
+	top: -195px;
+}
+.specialization1{
+	position: relative;
+	left: 80%;
+	top: -234px;
+}
+
+
+.addPartners{
+	position: relative;
+	left: 2%;
+	top: -234px;
+}
+
+.dell_partners{
+	display: inline-block;
+	height: 50px;
+	width: 220px;
+	position: relative;
+	text-align: center;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none; 
+	border-radius: 2px;
+	background-color: #fb565a;
+	top: -204px;
+}
+
+.services{
+	position: relative;
+	
+}
+
+.activzad{
+	position: relative;
+	left: 30%;
+	
+}
+
+.endzad{
+	position: relative;
+	left: 2%;
+	
+}
